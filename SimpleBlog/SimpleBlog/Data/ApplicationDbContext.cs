@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using SimpleBlog.Models;
 
 namespace SimpleBlog.Data
 {
@@ -9,5 +10,6 @@ namespace SimpleBlog.Data
             : base(options)
         {
         }
+        public DbSet<SimpleBlog.Models.Post> Post { get; set; } = default!;
     }
 }

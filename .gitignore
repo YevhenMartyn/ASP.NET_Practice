@@ -1,7 +1,8 @@
 
 # Ignore the build output and intermediate directories
-SimpleBlog/bin/
-SimpleBlog/obj/
+SimpleBlog/SimpleBlog/bin
+
+SimpleBlog/SimpleBlog/obj
 
 # Ignore NuGet Packages
 SimpleBlog/packages/
